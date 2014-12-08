@@ -23,7 +23,8 @@
     "content_scripts": [
         {
             "matches": [
-                "http://*/*"
+                "http://*/*",
+                "https://*/*"
             ],
             "css": [
                 "src/inject/inject.css"
@@ -31,7 +32,8 @@
         },
         {
             "matches": [
-                "http://*/*"
+                "http://*/*",
+                "https://*/*"
             ],
             "js": [
                 "js/jquery/jquery.min.js",
